@@ -7,7 +7,7 @@ USE `sneeuwmuis`;
 CREATE TABLE `dieren`(
     `id` int AUTO_INCREMENT PRIMARY KEY,
     `product` text NOT NULL,
-    `prijs` varchar(16) NOT NULL,
+    `prijs` int NOT NULL,
 );
 
 
